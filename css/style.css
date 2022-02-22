@@ -62,7 +62,7 @@ ul{
 
 a{
     text-decoration: none;
-    
+    transition: all .7s;
 }
 
 a:hover{
@@ -252,7 +252,7 @@ input,textarea{
     background-color: black;
     border-radius: 5px;
     color: white;
-    
+    transition: all .5s;
 }
 
 #Enviar:hover{
