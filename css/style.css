@@ -11,7 +11,11 @@ body{
     background-size: cover; */
     background-color: #000;
     font-family: 'Orbitron',sans-serif;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.contenedor{
+    padding-bottom: 5rem;
 }
 
 p{
@@ -25,7 +29,6 @@ video{
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-    padding-bottom: 5rem;
 }
 
 /* Menu Navegacion : */
@@ -387,6 +390,10 @@ h3{
     li{
         padding-bottom: 10px;
     }
+
+    footer{
+        height: 7rem;
+    }
     /* Inicio */
     .section-inicio{
         display: flex;
@@ -414,7 +421,7 @@ h3{
     }
 
     .section__link{
-        margin-top: 90%;
+        margin-top: 50%;
     }
 
     /* Footer */
