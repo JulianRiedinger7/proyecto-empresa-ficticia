@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RinconGamer</title>
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <!-- Archivo CSS -->
     <link rel="stylesheet" href="../css/style.css">
 
@@ -17,8 +20,157 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=PT+Mono&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand">
+                <img src="../Imagenes-Iconos/logoempresa.jpeg" alt="logo" class="img-fluid" width="50" height="50">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./nosotros.html" class="nav-link">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Nuestro Trabajo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./reviews.html" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contacto.html" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="container-fluid text-center text-light p-5 mb-5">
+        <video src="../Imagenes-Iconos/videofondo.mp4" autoplay muted loop></video>
+        <div class="container">
+            <h1 class="section__titulo">Nuestros Trabajos</h1>
+            <h2 class="section__subtitulo mb-5">Les presentamos algunos de nuestros trabajos preferidos</h2>
+            <h3 class="d-none  mb-4">Desliza a traves de las imagenes!</h3>
+            <div class="row">
+                <div class="col-md-4 pb-5">
+                    <img src="../Imagenes-Iconos/trabajo1.jpg" class="trabajos__img" alt="Setup rojo">
+                </div>
+
+                <div class="col-md-4 pb-5">
+                    <img src="../Imagenes-Iconos/trabajo2.jpg" class="trabajos__img" alt="Setup negro" >
+                </div>
+                <div class="col-md-4 pb-5">
+                    <img src="../Imagenes-Iconos/trabajo3.jpg" class="trabajos__img" alt="Setup multicolor">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 pb-5">
+                    <img src="../Imagenes-Iconos/trabajo4.jpg" class="trabajos__img" alt="Setup colorido">
+                </div>
+                <div class="col-md-4 pb-5">
+                    <img src="../Imagenes-Iconos/trabajo5.jpg" class="trabajos__img" alt="Setup violeta" >
+                </div>
+                <div class="col-md-4 pb-5">
+                    <img src="../Imagenes-Iconos/trabajo6.jpg" class="trabajos__img" alt="Setup rosa">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 pb-5">
+                    <img src="../Imagenes-Iconos/trabajo7.jpg" class="trabajos__img" alt="Setup blanco y colorido">
+                </div>
+                <div class="col-md-4 pb-5">
+                    <img src="../Imagenes-Iconos/trabajo8.jpg" class="trabajos__img" alt="Setup solo blanco">
+                </div>
+                <div class="col-md-4 pb-5">
+                    <img src="../Imagenes-Iconos/trabajo9.jpg" class="trabajos__img" alt="Setup oficina gamer">
+                </div>
+            </div>
+
+            <div id="carouselExampleControls " class="carousel slide d-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Imagenes-Iconos/trabajo1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Imagenes-Iconos/trabajo2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Imagenes-Iconos/trabajo3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Imagenes-Iconos/trabajo4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Imagenes-Iconos/trabajo5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Imagenes-Iconos/trabajo6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Imagenes-Iconos/trabajo7.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Imagenes-Iconos/trabajo8.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Imagenes-Iconos/trabajo9.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white text-center d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <p>Copyright &copy; 2022 Julian Riedinger</p>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-1">
+                    <a href="https://api.whatsapp.com/send?phone=+5402914190015" target="ADD_BLANK">
+                        <img src="../Imagenes-Iconos/wpicon.jpg" alt="Whatsapp" width="50" height="50">
+                    </a>
+                </li>
+                <li class="ms-1">
+                    <a href="https://www.instagram.com/julianriedinger/" target="ADD_BLANK">
+                        <img src="../Imagenes-Iconos/igicon.jpg" alt="Instagram" width="50" height="50">
+                    </a>
+                </li>
+                <li class="ms-1">
+                    <a href="https://www.facebook.com/julian.riedinger.1/"  target="ADD_BLANK">
+                        <img src="../Imagenes-Iconos/fbicon.jpg" alt="Facebook" width="50" height="50">
+                    </a>
+                </li>
+                <li class="ms-1">
+                    <a href="https://twitter.com/JuliRiedinger" target="ADD_BLANK">
+                        <img src="../Imagenes-Iconos/twicon.jpg" alt="Twitter" width="50" height="50">
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </footer>
+
+
     <!-- Menu de Navegacion: -->
-    <header class="grid-container">
+    <!-- <header class="grid-container">
         <div class="logo">
             <a href="../index.html">
                 <img src="../Imagenes-Iconos/logoempresa.jpeg" alt="Logo Rincon gamer" class="logo__img">
@@ -33,9 +185,9 @@
                 <li class="contactonav"><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <!-- Pagina Nuestro Trabajo -->
-    <video src="../Imagenes-Iconos/videofondo.mp4" autoplay muted loop></video>
+    <!--  <video src="../Imagenes-Iconos/videofondo.mp4" autoplay muted loop></video>
     <section class="section">
         <h1 class="section__titulo">Nuestros Trabajos</h1>
         <h2 class="section__subtitulo">Les presentamos algunos de nuestros trabajos preferidos</h2>
@@ -50,10 +202,10 @@
         <img src="../Imagenes-Iconos/trabajo7.jpg" class="trabajos__img" alt="Setup blanco y colorido">
         <img src="../Imagenes-Iconos/trabajo8.jpg" class="trabajos__img" alt="Setup solo blanco">
         <img src="../Imagenes-Iconos/trabajo9.jpg" class="trabajos__img trabajos__img-block" alt="Setup oficina gamer">
-    </div>
+    </div> -->
 
     <!-- Pie de pagina -->
-    <footer class="grid-container footer-mobile footer-medium">
+    <!-- <footer class="grid-container footer-mobile footer-medium">
         <p class="footer__autor">Hecho por Julian Riedinger</p>
         <p class="footer__copy">Copyright 2022</p>
         <div>
@@ -70,6 +222,9 @@
                 <img src="../Imagenes-Iconos/twicon.jpg" class="footer__icon__img" alt="Twitter" >
             </a>
         </div>
-    </footer>
+    </footer> -->
+
+    <!-- Bootstrap JS -->
+    <script src="../js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
