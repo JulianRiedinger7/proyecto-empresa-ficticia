@@ -20,46 +20,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=PT+Mono&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-black navbar-dark">
-        <div class="container">
-            <a href="../index.html" class="navbar-brand">
-                <img src="../Imagenes-Iconos/logoempresa.jpeg" alt="logo" class="img-fluid" width="50" height="50">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="../index.html" class="nav-link">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./nosotros.html" class="nav-link">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Nuestro Trabajo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./reviews.html" class="nav-link">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./contacto.html" class="nav-link">Contacto</a>
-                    </li>
-                </ul>
+    <!-- Menu Navegacion -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../Imagenes-Iconos/logoempresa.jpeg" alt="logo" class="img-fluid" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./nosotros.html" class="nav-link">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Nuestro Trabajo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./reviews.html" class="nav-link">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-
+    <!-- Pagina Trabajos -->
     <section class="container-fluid text-center text-light p-5 mb-5">
         <video src="../Imagenes-Iconos/videofondo.mp4" autoplay muted loop></video>
         <div class="container">
-            <h1 class="section__titulo">Nuestros Trabajos</h1>
-            <h2 class="section__subtitulo mb-5">Les presentamos algunos de nuestros trabajos preferidos</h2>
+            <h1 class="trabajo__titulo mb-3">Nuestros Trabajos</h1>
+            <h2 class="trabajo__subtitulo mb-5">Les presentamos algunos de nuestros trabajos preferidos</h2>
             <h3 class="d-none  mb-4">Desliza a traves de las imagenes!</h3>
-            <div class="row">
+            <div class="row mobile-none">
                 <div class="col-md-4 pb-5">
                     <img src="../Imagenes-Iconos/trabajo1.jpg" class="trabajos__img" alt="Setup rojo">
                 </div>
@@ -72,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mobile-none">
                 <div class="col-md-4 pb-5">
                     <img src="../Imagenes-Iconos/trabajo4.jpg" class="trabajos__img" alt="Setup colorido">
                 </div>
@@ -84,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mobile-none">
                 <div class="col-md-4 pb-5">
                     <img src="../Imagenes-Iconos/trabajo7.jpg" class="trabajos__img" alt="Setup blanco y colorido">
                 </div>
@@ -138,6 +139,7 @@
         </div>
     </section>
 
+    <!-- Pie De Pagina -->
     <footer class="bg-black text-white text-center d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
             <p>Copyright &copy; 2022 Julian Riedinger</p>
@@ -168,61 +170,6 @@
         </div>
     </footer>
 
-
-    <!-- Menu de Navegacion: -->
-    <!-- <header class="grid-container">
-        <div class="logo">
-            <a href="../index.html">
-                <img src="../Imagenes-Iconos/logoempresa.jpeg" alt="Logo Rincon gamer" class="logo__img">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li class="inicio"><a href="../index.html">Inicio</a></li>
-                <li class="sobre__nosotros"><a href="./nosotros.html">Sobre Nosotros</a></li>
-                <li class="nuestro__trabajo"><a href="#">Nuestro Trabajo</a></li>
-                <li class="reviewsnav"><a href="./reviews.html">Reviews</a></li>
-                <li class="contactonav"><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header> -->
-    <!-- Pagina Nuestro Trabajo -->
-    <!--  <video src="../Imagenes-Iconos/videofondo.mp4" autoplay muted loop></video>
-    <section class="section">
-        <h1 class="section__titulo">Nuestros Trabajos</h1>
-        <h2 class="section__subtitulo">Les presentamos algunos de nuestros trabajos preferidos</h2>
-    </section>
-    <div class="trabajos">
-        <img src="../Imagenes-Iconos/trabajo1.jpg" class="trabajos__img" alt="Setup rojo">
-        <img src="../Imagenes-Iconos/trabajo2.jpg" class="trabajos__img" alt="Setup negro" >
-        <img src="../Imagenes-Iconos/trabajo3.jpg" class="trabajos__img" alt="Setup multicolor">
-        <img src="../Imagenes-Iconos/trabajo4.jpg" class="trabajos__img" alt="Setup colorido">
-        <img src="../Imagenes-Iconos/trabajo5.jpg" class="trabajos__img" alt="Setup violeta" >
-        <img src="../Imagenes-Iconos/trabajo6.jpg" class="trabajos__img" alt="Setup rosa">
-        <img src="../Imagenes-Iconos/trabajo7.jpg" class="trabajos__img" alt="Setup blanco y colorido">
-        <img src="../Imagenes-Iconos/trabajo8.jpg" class="trabajos__img" alt="Setup solo blanco">
-        <img src="../Imagenes-Iconos/trabajo9.jpg" class="trabajos__img trabajos__img-block" alt="Setup oficina gamer">
-    </div> -->
-
-    <!-- Pie de pagina -->
-    <!-- <footer class="grid-container footer-mobile footer-medium">
-        <p class="footer__autor">Hecho por Julian Riedinger</p>
-        <p class="footer__copy">Copyright 2022</p>
-        <div>
-            <a href="https://api.whatsapp.com/send?phone=+5402914190015" class="footer__icon margen_izquierdo" target="ADD_BLANK">
-                <img src="../Imagenes-Iconos/wpicon.jpg" class="footer__icon__img" alt="Whatsapp" >
-            </a>
-            <a href="https://www.instagram.com/julianriedinger/" class="footer__icon" target="ADD_BLANK">
-                <img src="../Imagenes-Iconos/igicon.jpg" class="footer__icon__img" alt="Instagram" >
-            </a>
-            <a href="https://www.facebook.com/julian.riedinger.1/" class="footer__icon" target="ADD_BLANK">
-                <img src="../Imagenes-Iconos/fbicon.jpg" class="footer__icon__img" alt="Facebook" >
-            </a>
-            <a href="https://twitter.com/JuliRiedinger" class="footer__icon" target="ADD_BLANK">
-                <img src="../Imagenes-Iconos/twicon.jpg" class="footer__icon__img" alt="Twitter" >
-            </a>
-        </div>
-    </footer> -->
 
     <!-- Bootstrap JS -->
     <script src="../js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

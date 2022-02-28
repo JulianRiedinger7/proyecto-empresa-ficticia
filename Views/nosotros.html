@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RinconGamer</title>
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <!-- Archivo CSS -->
     <link rel="stylesheet" href="../css/style.css">
 
@@ -18,53 +21,92 @@
 </head>
 <body>
     <!-- Menu de Navegacion: -->
-    <header class="grid-container">
-        <div class="logo">
-            <a href="../index.html">
-                <img src="../Imagenes-Iconos/logoempresa.jpeg" alt="Logo Rincon gamer" class="logo__img">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li class="inicio"><a href="../index.html">Inicio</a></li>
-                <li class="sobre__nosotros"><a href="#">Sobre Nosotros</a></li>
-                <li class="nuestro__trabajo"><a href="./trabajo.html">Nuestro Trabajo</a></li>
-                <li class="reviewsnav"><a href="./reviews.html">Reviews</a></li>
-                <li class="contactonav"><a href="./contacto.html">Contacto</a></li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../Imagenes-Iconos/logoempresa.jpeg" alt="logo" class="img-fluid" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./trabajo.html" class="nav-link">Nuestro Trabajo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./reviews.html" class="nav-link">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- Pagina Sobre Nosotros -->
-    <video src="../Imagenes-Iconos/videofondo.mp4" autoplay muted loop></video>
-    <section class="nosotros">
-        <div>
-            <h1 class="nosotros__titulo">Sobre Nosotros</h1>
-            <p class="nosotros__descripcion">Somos una empresa dedicada a armar Setups para personas apasionadas al Gaming.
-                Nos comunicamos con nuestros clientes para preguntarles sus marcas predilectas, su estilo,
-                los colores que más les gustan y el presupuesto de gasto que poseen para armar su rincon especial.
-            </p>
-        </div>
-        <img class="nosotros__img" src="../Imagenes-Iconos/nosotros1.jpg" alt="Oficina gamer">
+
+    <section class="container-fluid text-white p-5 mb-5">
+        <video src="../Imagenes-Iconos/videofondo.mp4" autoplay muted loop></video>
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-6  text-lg-start pt-2">
+                    <h1>Sobre Nosotros</h1>
+                    <p class="mt-3">Somos una empresa dedicada a armar Setups para personas apasionadas al Gaming.
+                    Nos comunicamos con nuestros clientes para preguntarles sus marcas predilectas, su estilo,
+                    los colores que más les gustan y el presupuesto de gasto que poseen para armar su rincon especial.
+                    </p>
+                </div>
+
+                <div class="col-lg-6 ">
+                    <div>
+                        <img class= " img-fluid" src="../Imagenes-Iconos/nosotros1.jpg" alt="Oficina gamer">
+                    </div>
+                </div>
+            </div>
     </section>
+    
 
     <!-- Pie de pagina -->
-    <footer class="grid-container footer-mobile footer-medium">
-        <p class="footer__autor">Hecho por Julian Riedinger</p>
-        <p class="footer__copy">Copyright 2022</p>
-        <div>
-            <a href="https://api.whatsapp.com/send?phone=+5402914190015" class="footer__icon margen_izquierdo" target="ADD_BLANK">
-                <img src="../Imagenes-Iconos/wpicon.jpg" class="footer__icon__img" alt="Whatsapp" >
-            </a>
-            <a href="https://www.instagram.com/julianriedinger/" class="footer__icon" target="ADD_BLANK">
-                <img src="../Imagenes-Iconos/igicon.jpg" class="footer__icon__img" alt="Instagram" >
-            </a>
-            <a href="https://www.facebook.com/julian.riedinger.1/" class="footer__icon" target="ADD_BLANK">
-                <img src="../Imagenes-Iconos/fbicon.jpg" class="footer__icon__img" alt="Facebook" >
-            </a>
-            <a href="https://twitter.com/JuliRiedinger" class="footer__icon" target="ADD_BLANK">
-                <img src="../Imagenes-Iconos/twicon.jpg" class="footer__icon__img" alt="Twitter" >
-            </a>
+    <footer class="bg-black text-white text-center d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <p>Copyright &copy; 2022 Julian Riedinger</p>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-1">
+                    <a href="https://api.whatsapp.com/send?phone=+5402914190015" target="ADD_BLANK">
+                        <img src="../Imagenes-Iconos/wpicon.jpg" alt="Whatsapp" width="50" height="50">
+                    </a>
+                </li>
+                <li class="ms-1">
+                    <a href="https://www.instagram.com/julianriedinger/" target="ADD_BLANK">
+                        <img src="../Imagenes-Iconos/igicon.jpg" alt="Instagram" width="50" height="50">
+                    </a>
+                </li>
+                <li class="ms-1">
+                    <a href="https://www.facebook.com/julian.riedinger.1/"  target="ADD_BLANK">
+                        <img src="../Imagenes-Iconos/fbicon.jpg" alt="Facebook" width="50" height="50">
+                    </a>
+                </li>
+                <li class="ms-1">
+                    <a href="https://twitter.com/JuliRiedinger" target="ADD_BLANK">
+                        <img src="../Imagenes-Iconos/twicon.jpg" alt="Twitter" width="50" height="50">
+                    </a>
+                </li>
+                
+                
+            </ul>
         </div>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="../js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
