@@ -1,0 +1,109 @@
+
+/* MOBILE PHONE SIZE*/
+
+@media screen and (max-width: 700px){
+
+    .section__titulo{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .section__titulo,
+    .nosotros__titulo,
+    .contacto__titulo,
+    .reviews__titulo,
+    .trabajo__titulo{
+        font-size: 1.8em;
+    }
+
+    .section__subtitulo,
+    .nosotros__descripcion,
+    .contacto__subtitulo,
+    .trabajo__subtitulo{
+        font-size: .9em;
+    }
+
+    /* Reviews */
+    .reviews__subtitulo{
+        font-size: .9rem;
+    }
+
+}
+
+/* TABLET/MEDIUM SIZE  */
+@media screen and (min-width: 700px) and (max-width: 1300px){
+    /* Font Sizes */
+    .section__titulo,
+    .nosotros__titulo,
+    .contacto__titulo,
+    .reviews__titulo{
+        font-size: 3.5em;
+    }
+
+    .section__subtitulo,
+    .nosotros__descripcion,
+    .contacto__subtitulo,
+    .trabajo__subtitulo,
+    .reviews__subtitulo{
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    footer{
+        div{
+            flex-direction: column;
+        }
+    }
+
+    section{
+        h3{
+            font-size: 1.2rem;
+        }
+    }
+
+    p{
+        text-align: justify;
+        font-size: .7rem;
+    }
+
+    .card-text{
+        text-align: left;
+    }
+
+    .form-control{
+        width: 100%;
+        &::placeholder{
+            font-size: .7rem;
+        }
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:1000px){
+    
+    .carousel{
+        box-shadow: $sombra_principal;
+        border-radius: 10px;
+    }
+    
+    .carousel-inner{
+        
+        box-shadow: $sombra_principal;
+        border-radius: 10px;
+    }
+}
+
+
+@media screen and (min-width:768px){
+    .card-img-top{
+        height: 20rem;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .card-img-top{
+        height: 25rem;
+    }
+}
+

@@ -1,0 +1,103 @@
+$color_fuente: #efefef;
+$hover_principal: violet;
+$fondo_principal: #000;
+$borde_principal: 1px solid violet;
+$sombra_principal: 0 0 20px 0 violet;
+
+body{
+    background-color: $fondo_principal;
+    color: $color_fuente;
+}
+
+section{
+    img{
+        box-shadow: $sombra_principal;
+    }
+}
+
+nav{
+    border-bottom: $borde_principal;
+}
+
+.navbar-dark{
+    .navbar-nav{
+        .nav-link{
+            color: $color_fuente;
+            &:hover{
+                color: $hover_principal;
+                transition: all .7s;
+            }
+        }
+    }
+}
+
+a{
+    color: $color_fuente;
+    &:hover{
+        color: $hover_principal;
+        transition: all .7s;
+    }
+}
+
+footer{
+    border-top: $borde_principal;
+}
+
+
+.card{
+    box-shadow: $sombra_principal;
+}
+
+img{
+    &:hover{
+        opacity: .8;
+        transition: 1s;
+    }
+}
+
+.card-body{
+    &:hover{
+        background-color: $hover_principal;
+        opacity: .9;
+        transition: all 1s;
+    }
+}
+
+.btn-primary{
+    color: $color_fuente;
+    $fondo_principal: #6441a5;
+    background-color: $fondo_principal;
+    border-color: $fondo_principal;
+    &:hover{
+        background-color: $fondo_principal;
+        border-color: $fondo_principal;
+        opacity: .7;
+        transition: all .7s;
+    }
+}
+
+input,textarea,label{
+    color: $color_fuente;
+    margin-top: 1em;
+}
+
+form{
+    border: 2px solid black;
+    box-shadow: $sombra_principal;
+    border-radius: 10px;
+}
+
+.form-control{
+    background-color: transparent;
+    border-bottom: $borde_principal;
+    color: $color_fuente;
+    &:active,&:focus{
+        background-color: transparent;
+        color: $color_fuente;
+    }
+}
+
+.enviar{
+    background-color: $hover_principal;
+    transition: all .7s;
+}
