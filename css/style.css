@@ -6,12 +6,12 @@
 }
 
 body{
-    /* background-image: url(../Imagenes-Iconos/imagenprincipal.jpeg);
+    /* background-image: url(../Imagenes-Iconos/videofondo1.mp4);
     background-repeat: no-repeat;
     background-size: cover; */
     background-color: #000;
     font-family: 'Orbitron',sans-serif;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 
@@ -99,10 +99,22 @@ footer{
     box-shadow: 0 0 20px 0 violet;
 }
 
+
 .card-img-top{
     border-radius: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+img:hover{
+    opacity: .8;
+    transition: 1s;
+}
+
+.card-body:hover{
+    background-color: violet;
+    opacity: .9;
+    transition: all 1s;
 }
 
 
@@ -248,15 +260,6 @@ form{
 }
 
 @media screen and (min-width:320px) and (max-width:1000px){
-    .mobile-none{
-        display: none;
-    }
-
-    
-    
-    .d-none{
-        display: block !important;
-    }
     
     .carousel{
         box-shadow: 0 0 20px 0 violet;
