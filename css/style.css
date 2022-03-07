@@ -2,6 +2,9 @@ body {
   background-color: #000;
   color: #efefef; }
 
+h1 span {
+  color: violet; }
+
 section img {
   box-shadow: 0 0 20px 0 violet; }
 

@@ -9,6 +9,12 @@ body{
     color: $color_fuente;
 }
 
+h1{
+    span{
+        color: $hover_principal;
+    }
+}
+
 section{
     img{
         box-shadow: $sombra_principal;

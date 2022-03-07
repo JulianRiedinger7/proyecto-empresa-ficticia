@@ -56,50 +56,49 @@
         </nav>
     </header>
         <!-- Pagina Contacto -->
-        <section class="container-fluid text-center text-white p-5">
-            <video src="../Imagenes-Iconos/videofondo1.mp4" autoplay muted loop></video>
-            <h1 class="contacto__titulo">Dejanos tu mensaje</h1>
-            <h2 class="contacto__subtitulo mb-5"> Completa el siguiente formulario y aguarda nuestra respuesta</h2>
-            <div class="container">
-                <form class="mb-5 p-5 animate__animated animate__bounceInUp">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="inputName">Nombre Completo</label>
-                            <input type="text" class="form-control" id="inputName" required placeholder="Juan Perez">
+        <main>
+            <section class="container-fluid text-center text-white p-5">
+                <video src="../Imagenes-Iconos/videofondo1.mp4" autoplay muted loop></video>
+                <h1 class="contacto__titulo">Dejanos tu mensaje</h1>
+                <h2 class="contacto__subtitulo mb-5"> Completa el siguiente formulario y aguarda nuestra respuesta</h2>
+                <div class="container">
+                    <form class="mb-5 p-5 animate__animated animate__bounceInUp">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="inputName">Nombre Completo</label>
+                                <input type="text" class="form-control" id="inputName" required placeholder="Juan Perez">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" required placeholder="juanperez@gmail.com">
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" required placeholder="juanperez@gmail.com">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="inputCelular">Celular:</label>
+                                <input type="tel" class="form-control" name="fcelular" id="inputCelular" required placeholder="(111) 111 111 111">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputAsunto">Asunto</label>
+                                <input type="text" class="form-control" id="inputAsunto" placeholder="Armado de Setup">
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="inputCelular">Celular:</label>
-                            <input type="tel" class="form-control" name="fcelular" id="inputCelular" required placeholder="(111) 111 111 111">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="floatingTextarea">Mensaje</label>
+                                <textarea class="form-control h-100" placeholder="Deja tu mensaje aquí" id="floatingTextarea"></textarea>
+            
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <label for="inputAsunto">Asunto</label>
-                            <input type="text" class="form-control" id="inputAsunto" placeholder="Armado de Setup">
+                        <div class="row pt-5 mt-5">
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-lg btn-primary px-sm-5 enviar">Enviar</button>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label for="floatingTextarea">Mensaje</label>
-                            <textarea class="form-control h-100" placeholder="Deja tu mensaje aquí" id="floatingTextarea"></textarea>
-                            
-                        </div>
-                    </div>
-
-                    <div class="row pt-5 mt-5">
-                        <div class="col-md-12">
-                            <button type="submit" class="btn btn-lg btn-primary px-sm-5 enviar">Enviar</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
+                    </form>
+                </div>
+            </section>
+        </main>
 
         <!-- Pie de pagina -->
         <footer class="bg-black text-white text-center d-flex align-items-center">
