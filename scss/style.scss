@@ -46,9 +46,9 @@ section{
 }
 
 .card-img-top{
-    border-radius: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    @extend .card;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .form-label {
@@ -60,5 +60,5 @@ section{
     margin-left: auto;
     margin-right: auto;
     border: transparent;
-    border-bottom: $borde_principal;
+    border-bottom: map-get($estilo_violeta, borde);
 }

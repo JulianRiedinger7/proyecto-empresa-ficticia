@@ -1,6 +1,9 @@
+/* $hover_principal: violet;
+$borde_principal: 1px solid violet;
+$sombra_principal: 0 0 20px 0 violet; */
 body {
-  background-color: #000;
-  color: #efefef; }
+  color: #efefef;
+  background-color: #000; }
 
 h1 span {
   color: violet; }
@@ -26,7 +29,7 @@ a {
 footer {
   border-top: 1px solid violet; }
 
-.card {
+.card, .card-img-top {
   box-shadow: 0 0 20px 0 violet; }
 
 img:hover {
@@ -38,13 +41,11 @@ img:hover {
   opacity: .9;
   transition: all 1s; }
 
-.btn-primary {
+.btn-primary, .btn-primary:hover {
   color: #efefef;
   background-color: #6441a5;
   border-color: #6441a5; }
   .btn-primary:hover {
-    background-color: #6441a5;
-    border-color: #6441a5;
     opacity: .7;
     transition: all .7s; }
 
@@ -57,13 +58,10 @@ form {
   box-shadow: 0 0 20px 0 violet;
   border-radius: 10px; }
 
-.form-control {
+.form-control, .form-control:active, .form-control:focus {
+  color: #efefef;
   background-color: transparent;
-  border-bottom: 1px solid violet;
-  color: #efefef; }
-  .form-control:active, .form-control:focus {
-    background-color: transparent;
-    color: #efefef; }
+  border-bottom: 1px solid violet; }
 
 .enviar {
   background-color: violet;
@@ -135,16 +133,13 @@ footer {
     font-size: .7rem; }
   .card-text {
     text-align: left; }
-  .form-control {
+  .form-control, .form-control:active, .form-control:focus {
     width: 100%; }
-    .form-control::placeholder {
+    .form-control::placeholder, .form-control:active::placeholder, .form-control:focus::placeholder {
       font-size: .7rem; } }
 
 @media screen and (min-width: 320px) and (max-width: 1000px) {
-  .carousel {
-    box-shadow: 0 0 20px 0 violet;
-    border-radius: 10px; }
-  .carousel-inner {
+  .carousel, .carousel-inner {
     box-shadow: 0 0 20px 0 violet;
     border-radius: 10px; } }
 
@@ -185,18 +180,17 @@ section img {
   height: 100%;
   border-radius: 10px; }
 
-.card {
+.card, .card-img-top {
   border-radius: 10px; }
 
 .card-img-top {
-  border-radius: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px; }
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; }
 
 .form-label {
   margin-bottom: 0; }
 
-.form-control {
+.form-control, .form-control:active, .form-control:focus {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
