@@ -5,27 +5,8 @@ body {
   color: #efefef;
   background-color: #000; }
 
-<<<<<<< HEAD
-html{
-  height: 100%;
-}
-
-body{
-    /* background-image: url(../Imagenes-Iconos/videofondo1.mp4);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    background-color: #000;
-    font-family: 'Orbitron',sans-serif;
-
-    min-height: 100%;
-
-    display: flex;
-    flex-direction: column;
-}
-=======
 h1 span {
   color: violet; }
->>>>>>> sass
 
 section img {
   box-shadow: 0 0 20px 0 violet; }
@@ -100,114 +81,8 @@ p {
 
 .contacto__subtitulo,
 .reviews__subtitulo,
-<<<<<<< HEAD
-.trabajo__subtitulo{
-    font-size: 1.8rem;
-}
-
-
-/* Footer: */
-
-footer{
-
-    font-family: 'PT Mono', monospace;
-    border-top: 1px solid violet;
-    height: 5rem;
-    margin-top: auto;
-}
-
-
-
-
-
-/* Seccion Reviews */
-
-.card{
-    border-radius: 10px;
-    box-shadow: 0 0 20px 0 violet;
-}
-
-
-.card-img-top{
-    border-radius: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-img:hover{
-    opacity: .8;
-    transition: 1s;
-}
-
-.card-body:hover{
-    background-color: violet;
-    opacity: .9;
-    transition: all 1s;
-}
-
-
-.btn-primary {
-    color: #fff;
-    background-color: #6441a5;
-    border-color: #6441a5;
-    transition: all .7s;
-}
-
-.btn-primary:hover{
-    background-color: #6441a5;
-    border-color: #6441a5;
-    opacity: .7;
-}
-
-.btn-check:focus + .btn-primary, .btn-primary:focus {
-    color: rgb(255, 255, 255);
-    background-color: #6441a5;
-    border-color: #6441a5;
-}
-
-/* Seccion Contacto */
-
-input,textarea,label{
-    color: white;
-    margin-top: 1em;
-}
-
-
-form{
-    border: 2px solid black;
-    box-shadow: 0 0 20px 0 violet;
-    border-radius: 10px;
-}
-.form-label {
-    margin-bottom: 0;
-}
-
-.form-control{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    border: transparent;
-    background-color: transparent;
-    border-bottom: 2px solid violet;
-    color: white;
-}
-
-
-.form-control:active,
-.form-control:focus{
-    background-color: transparent;
-    color: white;
-}
-
-.enviar{
-    background-color: violet;
-    transition: all .7s;
-}
-
-=======
 .trabajo__subtitulo {
   font-size: 1.8rem; }
->>>>>>> sass
 
 footer {
   font-family: "PT Mono", monospace;
@@ -280,16 +155,10 @@ footer {
   .card-img-top {
     height: 25rem; } }
 
-<<<<<<< HEAD
-    section h3{
-        font-size: 1.4rem;
-    }
-=======
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
->>>>>>> sass
 
 html {
   height: 100%; }
@@ -311,32 +180,6 @@ video {
 footer {
   margin-top: auto; }
 
-<<<<<<< HEAD
-@media screen and (min-width:320px) and (max-width:1000px){
-    
-    .carousel{
-        box-shadow: 0 0 20px 0 violet;
-        border-radius: 10px;
-    }
-    
-    .carousel-inner{
-        
-        box-shadow: 0 0 20px 0 violet;
-        border-radius: 10px;
-    }
-
-    footer{
-      height: 6rem;
-    }
-}
-
-
-@media screen and (min-width:768px){
-    .card-img-top{
-        height: 20rem;
-    }
-}
-=======
 section img {
   width: 100%;
   height: 100%;
@@ -347,7 +190,6 @@ section img {
   height: 100px;
   border-radius: 0px;
   box-shadow: none; }
->>>>>>> sass
 
 .card, .card-img-top {
   border-radius: 10px; }
