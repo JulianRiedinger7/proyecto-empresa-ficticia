@@ -1,0 +1,28 @@
+$fuente_primaria:'Orbitron',sans-serif;
+$fuente_secundaria:'PT Mono', monospace;
+
+body{
+    font-family: $fuente_primaria;
+}
+
+p{
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.contacto__titulo,
+.reviews__titulo,
+.trabajo__titulo{
+    font-size: 3rem;
+}
+
+.contacto__subtitulo,
+.reviews__subtitulo,
+.trabajo__subtitulo{
+    font-size: 1.8rem;
+}
+
+footer{
+    font-family: $fuente_secundaria;
+    height: 6rem;
+}

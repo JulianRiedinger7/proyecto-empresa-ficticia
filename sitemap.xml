@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://julianriedinger7.github.io/proyecto-empresa-ficticia/index.html</loc>
+        <lastmod>2022-03-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1-0</priority>
+    </url>
+    <url>
+        <loc>https://julianriedinger7.github.io/proyecto-empresa-ficticia/Views/nosotros.html</loc>
+        <lastmod>2022-03-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1-0</priority>
+    </url>
+    <url>
+        <loc>https://julianriedinger7.github.io/proyecto-empresa-ficticia/Views/trabajo.html</loc>
+        <lastmod>2022-03-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1-0</priority>
+    </url>
+    <url>
+        <loc>https://julianriedinger7.github.io/proyecto-empresa-ficticia/Views/reviews.html</loc>
+        <lastmod>2022-03-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1-0</priority>
+    </url>
+    <url>
+        <loc>https://julianriedinger7.github.io/proyecto-empresa-ficticia/Views/contacto.html</loc>
+        <lastmod>2022-03-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1-0</priority>
+    </url>
+
+</urlset> 

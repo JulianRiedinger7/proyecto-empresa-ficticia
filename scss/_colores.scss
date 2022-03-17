@@ -1,0 +1,115 @@
+$color_fuente: #efefef;
+$fondo_principal: #000;
+/* $hover_principal: violet;
+$borde_principal: 1px solid violet;
+$sombra_principal: 0 0 20px 0 violet; */
+
+$estilo_violeta:(
+    color: violet,
+    borde: 1px solid violet,
+    sombra: 0 0 20px 0 violet
+);
+
+@mixin colors($font-color, $bg-color){
+    color: $font-color;
+    background-color: $bg-color;
+}
+
+body{
+    @include colors($color_fuente,$fondo_principal);
+}
+
+h1{
+    span{
+        color: map-get($estilo_violeta, color);
+    }
+}
+
+section{
+    img{
+        box-shadow: map-get($estilo_violeta, sombra);
+    }
+}
+
+nav{
+    border-bottom: map-get($estilo_violeta, borde);
+}
+
+.navbar-dark{
+    .navbar-nav{
+        .nav-link{
+            color: $color_fuente;
+            &:hover{
+                color: map-get($estilo_violeta, color );
+                transition: all .7s;
+            }
+        }
+    }
+}
+
+a{
+    color: $color_fuente;
+        &:hover{
+            color: map-get($estilo_violeta, color );
+            transition: all .7s;
+        }
+}
+
+footer{
+    border-top: map-get($estilo_violeta, borde);
+}
+
+
+.card{
+    box-shadow: map-get($estilo_violeta, sombra);
+}
+
+img{
+    &:hover{
+        opacity: .8;
+        transition: 1s;
+    }
+}
+
+.card-body{
+    &:hover{
+        background-color: map-get($estilo_violeta, color);
+        opacity: .9;
+        transition: all 1s;
+    }
+}
+
+.btn-primary{
+    $fondo_principal: #6441a5;
+    @include colors($color_fuente, $fondo_principal);
+    border-color: $fondo_principal;
+    &:hover{
+        @extend .btn-primary;
+        opacity: .7;
+        transition: all .7s;
+    }
+}
+
+input,textarea,label{
+    color: $color_fuente;
+    margin-top: 1em;
+}
+
+form{
+    border: 2px solid black;
+    box-shadow: map-get($estilo_violeta, sombra);
+    border-radius: 10px;
+}
+
+.form-control{
+    @include colors($color_fuente,transparent);
+    border-bottom: map-get($estilo_violeta, borde);
+    &:active,&:focus{
+        @extend .form-control;
+    }
+}
+
+.enviar{
+    background-color: map-get($estilo_violeta, color);
+    transition: all .7s;
+}
