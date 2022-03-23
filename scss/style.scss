@@ -39,6 +39,14 @@ section{
         width: 100%;
         height: 100%;
         border-radius: 10px;
+        transition: all 1s;
+    }
+}
+
+.trabajos__img{
+    transition: all 1s;
+    &:hover{
+        transform: translateY(-1rem);
     }
 }
 
@@ -64,11 +72,11 @@ section{
 }
 
 .form-control{
-    width: 70%;
     margin-left: auto;
     margin-right: auto;
     border: transparent;
     border-bottom: map-get($estilo_violeta, borde);
 }
+
 
 

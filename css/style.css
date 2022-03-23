@@ -15,16 +15,16 @@ nav {
   border-bottom: 1px solid violet; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #efefef; }
+  color: #efefef;
+  transition: all .7s; }
   .navbar-dark .navbar-nav .nav-link:hover {
-    color: violet;
-    transition: all .7s; }
+    color: violet; }
 
 a {
-  color: #efefef; }
+  color: #efefef;
+  transition: all .7s; }
   a:hover {
-    color: violet;
-    transition: all .7s; }
+    color: violet; }
 
 footer {
   border-top: 1px solid violet; }
@@ -131,6 +131,8 @@ footer {
   p {
     text-align: justify;
     font-size: .7rem; }
+  .card-img-top {
+    height: 15rem; }
   .card-text {
     text-align: left; }
   .form-control, .form-control:active, .form-control:focus {
@@ -144,6 +146,10 @@ footer {
   .carousel, .carousel-inner {
     box-shadow: 0 0 20px 0 violet;
     border-radius: 10px; } }
+
+@media screen and (min-width: 992px) {
+  .form-control, .form-control:active, .form-control:focus {
+    width: 70%; } }
 
 @media screen and (min-width: 768px) {
   .card-img-top {
@@ -183,7 +189,13 @@ footer {
 section img {
   width: 100%;
   height: 100%;
-  border-radius: 10px; }
+  border-radius: 10px;
+  transition: all 1s; }
+
+.trabajos__img {
+  transition: all 1s; }
+  .trabajos__img:hover {
+    transform: translateY(-1rem); }
 
 .logo {
   width: 100px;
@@ -202,8 +214,10 @@ section img {
   margin-bottom: 0; }
 
 .form-control, .form-control:active, .form-control:focus {
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
   border: transparent;
   border-bottom: 1px solid violet; }
+
+.btn-follow {
+  margin-top: auto; }
